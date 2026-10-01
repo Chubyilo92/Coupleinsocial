@@ -61,7 +61,7 @@ PICK = [  # (4 outcomes, caption hook, scores)
  (["They draw you a bath with candles.","You choose the weekend plan.","They clean the car for you.","A whole day of being right."], "Pick 1, 2, 3 or 4. No changing your answer.", (8, 10, 8, 9)),
  (["They make your lunch tomorrow.","You choose Sunday's roast.","They warm the car up all week.","A foot rub. No time limit."], "Pick a card. Comment your number.", (8, 10, 8, 9)),
  (["They write 5 things they love about you.","A free pass on one chore.","They make pancakes this weekend.","They take you somewhere new."], "Pick, then tag the person who's paying up.", (8, 10, 8, 9)),
- (["They take the photos. As many as you want.","You choose the takeaway. Forever.","They iron your outfit for a week.","Cuddles on demand. Any time."], "Pick a card. Card 1 is for the Instagram partners.", (8, 10, 8, 10)),
+ (["They take the photos. As many as you want.","You choose the takeaway. Forever.","They iron your outfit for a week.","Cuddles on demand. Any time."], "Pick a card. Swipe. Collect your prize.", (8, 10, 8, 10)),
  (["They plan a day you'll love.","Breakfast made all weekend.","They tidy your side of the room.","30 extra minutes in bed. Every day."], "1, 2, 3 or 4? Tag them before they can argue.", (8, 10, 8, 9)),
  (["They carve the pumpkin. You supervise.","You pick the scary film. No hiding.","They answer the door to trick-or-treaters.","First dibs on the sweets."], "Halloween edition. Pick a card, then tag them.", (8, 10, 8, 10)),
 ]

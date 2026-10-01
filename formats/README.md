@@ -14,3 +14,16 @@ Every item is scored 1-10 on downloads, engagement, conversion, relatability BEF
 
 
 v2 scores 1 Oct (my estimate, unverified by real data): send-this 8.0, do-we-match 7.5, pick-a-card 7.5. The app-card crop lifts conversion; none is a proven 10.
+
+
+## October 2026 batch (scheduled 1 Oct, 56 posts, Oct 4-31, 08:00 and 12:00, IG+FB)
+Built with `build_batch.py` from `batches/2026-10.py` (text + scores per post); plan in `batches/2026-10-plan.json`; images in `images/2026-10/`. Renderer uses balanced line wrap (no orphans). Posts alternate formats and never repeat a format in the same slot two days running.
+Scores are my own estimates, not measured. Real results come from Metricool after posting. None is a 10 yet: downloads and conversion are the gap (static image, one app card).
+
+| Format | Posts | Downloads | Engagement | Conversion | Relatability | Avg |
+|---|---|---|---|---|---|---|
+| send | 20 | 8.0 | 9.3 | 8.1 | 9.7 | 8.78 |
+| match | 20 | 8.0 | 9.8 | 8.2 | 9.5 | 8.88 |
+| pick | 16 | 8.0 | 10.0 | 8.1 | 9.2 | 8.82 |
+
+To build a month: write `batches/<YYYY-MM>.py` (SEND 20 / MATCH 20 / PICK 16 for 28 days; adjust counts to days*2), run `python3 build_batch.py <YYYY-MM> <start> <end>`, push images, schedule from the plan JSON. UK clocks go back Sun 25 Oct 2026 (GMT after).
