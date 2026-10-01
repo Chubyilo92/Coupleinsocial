@@ -10,6 +10,18 @@ from PIL import Image, ImageDraw
 HERE = os.path.dirname(os.path.abspath(__file__))
 RV = os.path.join(HERE, "..", "you-owe-me-quiz-videos (1)", "you-owe-me-quiz-videos", "render", "render_video.py")
 spec = importlib.util.spec_from_file_location("rv", RV); rv = importlib.util.module_from_spec(spec); spec.loader.exec_module(rv)
+_greedy = rv.wrap
+def _balanced(d, text, f, maxw):
+    """Same line count as greedy, but the narrowest width that keeps it: evens out lines, kills orphans."""
+    ls = _greedy(d, text, f, maxw)
+    if len(ls) < 2: return ls
+    lo, hi = 50, maxw
+    while hi - lo > 4:
+        mid = (lo + hi) / 2
+        if len(_greedy(d, text, f, mid)) <= len(ls) and all(d.textlength(w, font=f) <= mid for w in text.split()): hi = mid
+        else: lo = mid
+    return _greedy(d, text, f, hi)
+rv.wrap = _balanced
 SHOTS = os.path.join(HERE, "..", "black-background-carousels", "shots", "points.png")
 W, H = 1080, 1350
 BG = (17, 17, 17)
