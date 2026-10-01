@@ -42,3 +42,15 @@ Scores = downloads / engagement / conversion / relatability, honest, plain-card 
 | Fri 9 Oct | translate7 "when they feel insecure" | translate | 6.5/7.5/6.5/7.5 | 7.0 |
 | Sat 10 Oct | tier2 "Things that quietly end relationships" | tier | 6.5/7.5/6.5/7.5 | 7.0 |
 Analytics so far: no meaningful reel data yet (one older reel: 0 comments, 2 saves, 97 reach). Leaning on translate (best honest scores) and tier/flags with a confession or surprise twist; the first-pass tier/flags/board cards scored 6.6-6.9 and were rewritten with bolder hooks.
+
+## Batch 3: 7 Oct 08:00 and 11-13 Oct (made 1 Oct 2026, run-now)
+| Date | Time | Reel | Format | Scores (dl/eng/conv/rel) | Avg |
+|---|---|---|---|---|---|
+| Wed 7 Oct | 08:00 | board3 "The guilty scoreboard" | board | 6/7.5/6.5/8 | 7.0 |
+| Sun 11 Oct | 08:00 | translate8 "need space" | translate | 6.5/7.5/6.5/8 | 7.1 |
+| Sun 11 Oct | 12:00 | tier4 "Things every couple fakes" | tier | 6.5/8/6.5/7.5 | 7.1 |
+| Mon 12 Oct | 08:00 | translate9 "taken for granted" | translate | 6.5/7.5/6.5/8 | 7.1 |
+| Mon 12 Oct | 12:00 | flags4 "some nice things are red flags" | flags | 6/7.5/7/7.5 | 7.0 |
+| Tue 13 Oct | 08:00 | EMPTY: board4 "Who's worse at..." held back | board | 6/7/6/8 | 6.75 |
+| Tue 13 Oct | 12:00 | translate10 "money stress" | translate | 6.5/7.5/6.5/7.5 | 7.0 |
+Still empty: flags3 (6.9) was held earlier but 7 Oct 08:00 now has board3. tier4 first render overflowed the S row (4 items); max 3 items per tier row.
