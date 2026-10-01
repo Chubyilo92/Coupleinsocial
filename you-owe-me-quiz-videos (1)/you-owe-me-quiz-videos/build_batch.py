@@ -46,7 +46,7 @@ for ep in data["eps"]:
     silent = os.path.join(out, f"YouOweMe_{ep['n']:02d}_{ep['post_date']}_silent.mp4")
     final = os.path.join(out, f"YouOweMe_{ep['n']:02d}_{ep['post_date']}_sound.mp4")
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", silent, "-i", bed, "-map", "0:v", "-map", "1:a",
-                    "-c:v", "copy", "-af", "loudnorm=I=-14:TP=-1.5:LRA=7", "-c:a", "aac", "-b:a", "192k",
+                    "-c:v", "copy", "-af", "loudnorm=I=-19:TP=-2:LRA=7", "-c:a", "aac", "-b:a", "192k",
                     "-ar", "44100", "-shortest", "-movflags", "+faststart", final], check=True)
     os.remove(silent)
 
