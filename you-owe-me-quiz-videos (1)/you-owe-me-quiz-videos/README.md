@@ -93,7 +93,7 @@ a whole day of you being right, a surprise date. Episode 1 is pinned to ice crea
 
 ## 2b. Format rotation
 
-Currently live: **You Owe Me quiz only.** Planned additions (each gets its own renderer under
+Static IG/FB formats (send-this, do-we-match, pick-a-card) now live in `/formats/` (see its README, incl. the standing scoring rule). Video: **You Owe Me quiz only.** Planned additions (each gets its own renderer under
 `formats/<name>/` and a line in this table when built; until then every day is You Owe Me):
 
 | Format | Per week | Job |
