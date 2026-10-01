@@ -43,3 +43,5 @@ Every piece of content is scored 1-10 on downloads, engagement, conversion, rela
 
 ## UPDATE 1 Oct 2026 (late): Instagram = reels only
 Chuby decided Instagram posts reels only for now. The static formats (formats/) are cancelled: all 56 October posts are drafts, the formats task is disabled. IG/FB 08:00 and 12:00 slots from 4 Oct are EMPTY and to be filled with quiz or relatable reels (non-copyrighted images/footage allowed to lift quality). Score every reel on downloads, engagement, conversion, relatability and ship only great ones.
+
+See `reels/README.md` for the reels system: formats, spec fields, pacing/scoring/caption rules, and the Metricool recipe.
