@@ -28,3 +28,17 @@ createScheduledPost: date 12:00 local (+01:00 until Sun 25 Oct, then +00:00), in
 ## Current schedule (12:00 UK)
 4 Oct flags1 | 5 Oct tier1 | 6 Oct translate1 | 7 Oct translate2 (provocative) | 8 Oct board1 | 9 Oct flags2 | 10 Oct translate3 (provocative). IG/FB 08:00 slots still empty.
 Weekly task "Weekly CoupleIn reels" (trig_014VMVTFnUrSyw8tsYnKHcBF) runs 10:07 UK on 11, 18, 25 Oct to fill the following 7 days, then disables itself.
+
+
+## Batch 2: 08:00 UK reels, 4-10 Oct (made 1 Oct 2026)
+Scores = downloads / engagement / conversion / relatability, honest, plain-card look.
+| Date 08:00 | Reel | Format | Scores | Avg |
+|---|---|---|---|---|
+| Sun 4 Oct | translate4 "when they're overwhelmed" | translate | 6.5/7.5/7/8 | 7.25 |
+| Mon 5 Oct | translate5 "when they feel unloved" | translate | 6.5/7.5/6.5/8 | 7.1 |
+| Tue 6 Oct | tier3 "Things you do but never admit" | tier | 6.5/7.5/6.5/8 | 7.1 |
+| Wed 7 Oct | EMPTY: flags3 scored 6.9 (below the 7 bar), held back | flags | 6/7.5/6.5/7.5 | 6.9 |
+| Thu 8 Oct | translate6 "after a fight" | translate | 6.5/7.5/7/8 | 7.25 |
+| Fri 9 Oct | translate7 "when they feel insecure" | translate | 6.5/7.5/6.5/7.5 | 7.0 |
+| Sat 10 Oct | tier2 "Things that quietly end relationships" | tier | 6.5/7.5/6.5/7.5 | 7.0 |
+Analytics so far: no meaningful reel data yet (one older reel: 0 comments, 2 saves, 97 reach). Leaning on translate (best honest scores) and tier/flags with a confession or surprise twist; the first-pass tier/flags/board cards scored 6.6-6.9 and were rewritten with bolder hooks.
