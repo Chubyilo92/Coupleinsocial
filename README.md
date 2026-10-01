@@ -1,2 +1,38 @@
-# Coupleinsocial
-Images 
+# Coupleinsocial: master plan (read this first)
+
+Last updated: 1 Oct 2026. If this disagrees with an older doc elsewhere, this file wins.
+
+## Brands and Metricool ids (timezone Europe/London)
+| Brand | Metricool id | Content repo |
+|---|---|---|
+| CoupleIn | 7074518 | this repo |
+| Mike Gomorrah | 7128269 | github.com/Chubyilo92/Mikegomo |
+| JJ puppies | 7128333 | Viral-Cartoon-Video (build) + JJCutecouple (hosted media) |
+
+## CoupleIn plan, 4 Oct 2026 onward
+| Slot (UK) | Channel | Content | Status |
+|---|---|---|---|
+| 08:00, 12:00 daily | TikTok | Black-background carousels (JPEG, never PNG) | Scheduled to 31 Oct |
+| 08:00, 12:00 daily | Instagram + Facebook | **Carousels CUT from 4 Oct (decision 1 Oct).** Posts set to draft. Slots empty until a new format is approved | Open |
+| 12:30, 20:00 daily | Threads | Text posts | Scheduled to 31 Oct |
+| 17:00 daily | Pinterest | Pins | Scheduled to 31 Oct |
+| 18:00 daily | Instagram Reel + TikTok + Facebook Reel | "You Owe Me" quiz video, one Metricool post, 3 providers | Episodes 1-28 scheduled (4-31 Oct) |
+
+Details: `you-owe-me-quiz-videos (1)/you-owe-me-quiz-videos/README.md` (quiz spec) and `black-background-carousels/SPEC.md` (carousels).
+
+## Decisions (latest first)
+- 1 Oct: IG and FB carousels stopped from 4 Oct. No new ones. Carousels continue on TikTok only, as JPEG. Existing black carousels stay scheduled via the monthly task.
+- 1 Oct: Quiz audio: music bed lowered (loudnorm I=-19, TP=-2, LRA=7). All 28 episodes re-exported and live posts updated.
+- 1 Oct: Claude now has push access to this repo and Mikegomo, so media is committed directly (no manual upload).
+- 1 Oct: Mike TikTok carousel (2 Oct 12:00) has an engagement slide ("Like this post...") between slides 1 and 2.
+- 1 Oct: New quiz formats planned: "send this to them" notes, "do we match?", pick-a-card. Prototypes need Chuby's OK before they fill the empty IG/FB slots.
+
+## Other brands
+- Mike Gomorrah: comedy reels 10:00 and 18:00 on IG, TikTok, FB to 11 Oct; carousels as in the Mikegomo README. Runs out 11 Oct. Needs stock footage from Chuby.
+- JJ puppies: 2 videos/day (10:00, 18:00) to 11 Oct; the twice-weekly scheduled task (Sun and Wed) refills about 14 per week. Oct 11 18:00 slot is empty until the 4 Oct run.
+
+## Scheduled tasks
+CoupleIn monthly video batch (10th), monthly dark carousel batch (20th), JJ twice-weekly batch, CoupleIn weekly numbers (Mondays; last run failed).
+
+## Hosting rule
+Commit media to the repo, then use `https://raw.githubusercontent.com/Chubyilo92/<repo>/main/<path>` (URL-encode spaces/brackets) as the Metricool media URL. Metricool copies it.

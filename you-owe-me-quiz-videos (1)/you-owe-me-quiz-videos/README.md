@@ -5,7 +5,7 @@ rebuild, extend and schedule the series from a fresh chat or a different model.
 Chat is where decisions are made; this file is where they live. Update it when a
 decision changes.
 
-Last updated: 28 Sep 2026. Episodes 1–14 built and scheduled (4–17 Oct 2026).
+Last updated: 1 Oct 2026. Episodes 1–28 built and scheduled (4–31 Oct 2026). Music bed lowered (loudnorm I=-19). Master plan: repo root README.md.
 
 ---
 
@@ -126,7 +126,7 @@ TikTok safe zone respected: key content between y≈180 and y≈1500.
 Original, royalty-free music bed made in code (`render/music_bed.py` → `assets/music_bed.wav`):
 118 bpm, I–vi–IV–V in C, kick/clap/hats, bass, plucky chords, marimba melody from the first
 question, whoosh into each question, tick on each countdown second, "ding" on the end card.
-Mixed to **−14 LUFS, −1.5 dBTP** with ffmpeg loudnorm.
+Music bed mixed with loudnorm I=-19, TP=-2, LRA=7 (lowered 1 Oct; the old -14 LUFS bed was too loud against the voiceover).
 
 TikTok can't take a trending sound through the API, and you can't add one after posting.
 Options: (a) post automatically with the built-in bed (current setup), or (b) set the Metricool
@@ -144,7 +144,7 @@ post to "notification" and add a trending sound in the TikTok app at posting tim
 - Metricool settings: providers `[tiktok, instagram, facebook]`, `autoPublish: true`,
   `instagramData: {type: REEL, showReelOnFeed: true}`, `facebookData: {type: REEL}`,
   `tiktokData: {title: "You Owe Me #n", privacyOption: PUBLIC_TO_EVERYONE, autoAddMusic: false}` (auto-add music only works on photo posts).
-- **Media hosting (standard):** upload the batch's MP4s to this repo at
+- **Media hosting (standard; Claude can now push directly, no manual upload):** commit the batch's MP4s to this repo at
   `you-owe-me-quiz-videos/media/<YYYY-MM>/<file>.mp4` (GitHub web uploader, max 100 files per commit,
   it does not unzip). Use `https://raw.githubusercontent.com/Chubyilo92/Coupleinsocial/main/you-owe-me-quiz-videos/media/<YYYY-MM>/<file>.mp4`
   as Metricool media, after checking each URL returns 200. Metricool copies the file to its own storage.
@@ -154,8 +154,9 @@ post to "notification" and add a trending sound in the TikTok app at posting tim
 ### Scheduled so far
 | Episodes | Dates (18:00) | Status |
 |---|---|---|
-| 1–14 | Sun 4 Oct – Sat 17 Oct 2026 | Scheduled in Metricool with music, on Instagram, TikTok and Facebook |
-| 15+ | from Sun 18 Oct 2026 | Made by the monthly scheduled task (10th of each month, 11:20 UK) |
+| 1–14 | Sun 4 Oct – Sat 17 Oct 2026 | Scheduled; quieter-audio version live (1 Oct) |
+| 15–28 | Sun 18 Oct – Sat 31 Oct 2026 | Scheduled (1 Oct), quiet bed |
+| 29+ | from Sun 1 Nov 2026 | Made by the monthly scheduled task (10th, 11:20 UK) |
 
 ## 6. How to make the next batch
 
@@ -205,3 +206,4 @@ and Noto Color Emoji at the paths in `render/render_video.py` (edit `FB`, `FM`, 
 - Rendering is done in code, not AI video generation, so it's free and exact.
 - Expect weak views for the first 1–3 weeks on a new or throttled account; judge weekly, not per post.
   Track installs per episode (separate link or keyword) to learn which questions convert.
+- 1 Oct: Episodes 15–28 built and scheduled; all 28 re-exported with the quieter bed and live posts updated. Claude has push access. IG/FB carousels cut from 4 Oct, so the 08:00/12:00 IG/FB slots are open pending new-format approval.
