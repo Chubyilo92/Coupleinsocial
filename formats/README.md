@@ -1,3 +1,6 @@
+> **1 Oct 2026 (late): STATIC POSTS CANCELLED.** Chuby wants Instagram to be reels only for now. The 56 October static posts (Send this / Do we match / Pick a card) were set back to DRAFT in Metricool (no delete tool; they will not publish). The monthly formats task is DISABLED. Do not schedule static images on IG/FB. The 08:00 and 12:00 slots are to be filled with reels instead (see master README).
+> Honest score: static engagement was over-rated (real estimate 5-6). Keep this folder only as a renderer reference.
+
 # Static formats for CoupleIn Instagram + Facebook (08:00 and 12:00)
 
 Created 1 Oct 2026 to fill the slots freed when IG/FB carousels were cut. 1080x1350 PNG (IG/FB take PNG).
