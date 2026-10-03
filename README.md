@@ -21,6 +21,7 @@ Last updated: 1 Oct 2026. If this disagrees with an older doc elsewhere, this fi
 Details: `you-owe-me-quiz-videos (1)/you-owe-me-quiz-videos/README.md` (quiz spec) and `black-background-carousels/SPEC.md` (carousels).
 
 ## Decisions (latest first)
+- 3 Oct: TikTok black carousels 4–31 Oct re-rendered as v2 (rotating covers, "Send this to him" slide 3) and all captions rewritten to the send style. Rules in black-background-carousels/SPEC.md §0. The 20th monthly batch must follow v2.
 - 1 Oct: IG and FB carousels stopped from 4 Oct. No new ones. Carousels continue on TikTok only, as JPEG. Existing black carousels stay scheduled via the monthly task.
 - 1 Oct: Quiz audio: music bed lowered (loudnorm I=-19, TP=-2, LRA=7). All 28 episodes re-exported and live posts updated.
 - 1 Oct: Claude now has push access to this repo and Mikegomo, so media is committed directly (no manual upload).

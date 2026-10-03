@@ -7,6 +7,17 @@
 
 ---
 
+## 0. v2 rules (3 Oct 2026) — override anything below that conflicts
+
+v1 plateaued at ~700 views on TikTok with 0 comments and 0 shares, then dropped to 41 and 0. Fixes, modelled on top faceless relationship slideshows:
+
+- **Covers rotate** through 5 looks so consecutive posts never match: glow a, light, text-message (iMessage bubbles), glow b, glow c. See `render_oct_v2.py`.
+- **Slide 3 is a share slide**: release lines + a gradient pill "Send this to him/her." (rotating endings: "Say nothing." / "Don't explain." / "No context."). The 1-or-2 comment poll is retired; it got zero comments.
+- **TikTok captions**: one lowercase line with a specific, funny detail + emoji, then a unique "send this to him/her ..." line, then 4 hashtags. No "1 or 2", no "Search CoupleIn" line, no reused lines across posts. The app CTA lives on slide 4 only.
+- Source of truth for October v2: `oct_v2_data.py` + `render_oct_v2.py`, images in `/October_v2/`.
+
+---
+
 ## 1. What this format is
 
 A four-slide static carousel. Dark cover, light middle, dark close. The name comes from slide 1: near-black background, two lines of Poppins Bold, a pink glow bleeding in from the top-right corner.
