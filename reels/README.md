@@ -54,3 +54,24 @@ Analytics so far: no meaningful reel data yet (one older reel: 0 comments, 2 sav
 | Tue 13 Oct | 08:00 | EMPTY: board4 "Who's worse at..." held back | board | 6/7/6/8 | 6.75 |
 | Tue 13 Oct | 12:00 | translate10 "money stress" | translate | 6.5/7.5/6.5/7.5 | 7.0 |
 Still empty: flags3 (6.9) was held earlier but 7 Oct 08:00 now has board3. tier4 first render overflowed the S row (4 items); max 3 items per tier row.
+
+
+## Batch 4: 13 Oct 08:00 to 19 Oct 12:00 (made 10 Oct 2026 by the Thursday task, run-now)
+Analytics read 10 Oct (IG reels 4-9 Oct 12:00/08:00, Metricool): every reel reached ~35-135 people, 0 comments, 0 saves, 0 shares on all plain-card reels. Best reach: flags2 (121), tier1 (112), translate6/7 (106-110); worst: board1 (13), board3 (48), translate3 (57). Quiz videos (18:00) are the only ones with a comment (1 each). Signal is thin, so: boards cut, translate kept as the weekly backbone (6 this week), flags/tier mixed with relatable everyday twists. Plain cards are not driving comments; photo/footage backgrounds are the next thing to try (needs Chuby's OK or assets).
+| Date | Time | Reel | Format | Scores (dl/eng/conv/rel) | Avg |
+|---|---|---|---|---|---|
+| Tue 13 Oct | 08:00 | flags5 "Plot twist: some of these are red" | flags | 6.5/7.5/6.5/7.5 | 7.0 |
+| Wed 14 Oct | 08:00 | translate11 "when they're jealous" | translate | 6.5/7.5/6.5/8 | 7.1 |
+| Wed 14 Oct | 12:00 | tier5 "Excuses ranked by how annoying" | tier | 6.5/8/6.5/8 | 7.25 |
+| Thu 15 Oct | 08:00 | flags6 "Texting edition" | flags | 6.5/7.5/7/8 | 7.25 |
+| Thu 15 Oct | 12:00 | translate12 "when they're exhausted" | translate | 6.5/7.5/7/8 | 7.25 |
+| Fri 16 Oct | 08:00 | translate13 "when they feel disrespected" | translate | 6.5/7.5/6.5/7.5 | 7.0 |
+| Fri 16 Oct | 12:00 | tier6 "What you do when you're annoyed" | tier | 6.5/8/6.5/8 | 7.25 |
+| Sat 17 Oct | 08:00 | flags7 "Household edition" | flags | 6/7.5/7/8 | 7.1 |
+| Sat 17 Oct | 12:00 | translate14 "when they're scared of the future" | translate | 6.5/7.5/6.5/7.5 | 7.0 |
+| Sun 18 Oct | 08:00 | translate15 "when work has broken them" | translate | 6.5/7.5/7/8 | 7.25 |
+| Sun 18 Oct | 12:00 | tier7 "What wins them back fastest" | tier | 6.5/7.5/7/7.5 | 7.1 |
+| Mon 19 Oct | 08:00 | flags8 "Fighting edition" | flags | 6/7.5/7/7.5 | 7.0 |
+| Mon 19 Oct | 12:00 | translate16 "when they feel left out" | translate | 6.5/7.5/6.5/7.5 | 7.0 |
+Spare (rendered, unscheduled, reuse next week): translate17 "when they go quiet" 7.1.
+The earlier "Current schedule" note about a weekly task is superseded: the Thursday task now extends the schedule indefinitely (7-day window from the first gap).
